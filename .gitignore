@@ -6,6 +6,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+quickstart.py
+docker_quickstart.py
+
 # C extensions
 *.so
 
@@ -91,8 +94,32 @@ ENV/
 # Rope project settings
 .ropeproject
 
+<<<<<<< HEAD
 # OS Files
 .DS_Store
 
 # Log Files
 logs/*
+=======
+# Mac files
+.DS_Store
+
+# Storage
+*.db
+logs/
+
+# Editors
+.idea
+.vscode
+.bak
+
+# pytest
+.pytest_cache/
+tests/logs
+
+# Pipfile
+Pipfile
+
+# Instances
+z_*
+>>>>>>> master
